@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB4E2F61A698094002A5140 /* No2AES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E2F01A698094002A5140 /* No2AES.cpp */; };
+		EFB4E2F81A698094002A5140 /* rc4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E2F41A698094002A5140 /* rc4.cpp */; };
+		EFB4E2FE1A698196002A5140 /* encryption_aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E2F91A698196002A5140 /* encryption_aes.cpp */; };
+		EFB4E3001A698196002A5140 /* GameMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E2FC1A698196002A5140 /* GameMaths.cpp */; };
+		EFB4E3041A6984BA002A5140 /* No2DncryptData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E3021A6984BA002A5140 /* No2DncryptData.cpp */; };
+		EFB4E3081A698721002A5140 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB4E3071A698721002A5140 /* libz.dylib */; };
+		EFB4E30B1A698CBF002A5140 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E3091A698CBF002A5140 /* File.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF7A3CB01A697FE20036E7F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF7A3CB21A697FE20036E7F2 /* EncryptData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EncryptData; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB4E2F01A698094002A5140 /* No2AES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = No2AES.cpp; sourceTree = "<group>"; };
+		EFB4E2F11A698094002A5140 /* No2AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No2AES.h; sourceTree = "<group>"; };
+		EFB4E2F41A698094002A5140 /* rc4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rc4.cpp; sourceTree = "<group>"; };
+		EFB4E2F51A698094002A5140 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		EFB4E2F91A698196002A5140 /* encryption_aes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encryption_aes.cpp; sourceTree = "<group>"; };
+		EFB4E2FC1A698196002A5140 /* GameMaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameMaths.cpp; sourceTree = "<group>"; };
+		EFB4E2FD1A698196002A5140 /* GameMaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMaths.h; sourceTree = "<group>"; };
+		EFB4E3011A6983C9002A5140 /* Encuypt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Encuypt.hpp; sourceTree = "<group>"; };
+		EFB4E3021A6984BA002A5140 /* No2DncryptData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = No2DncryptData.cpp; sourceTree = "<group>"; };
+		EFB4E3031A6984BA002A5140 /* No2DncryptData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No2DncryptData.h; sourceTree = "<group>"; };
+		EFB4E3071A698721002A5140 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EFB4E3091A698CBF002A5140 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		EFB4E30A1A698CBF002A5140 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7A3CAF1A697FE20036E7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB4E3081A698721002A5140 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7A3CA91A697FE20036E7F2 = {
+			isa = PBXGroup;
+			children = (
+				EFB4E3071A698721002A5140 /* libz.dylib */,
+				EF7A3CB41A697FE20036E7F2 /* EncryptData */,
+				EF7A3CB31A697FE20036E7F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7A3CB31A697FE20036E7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7A3CB21A697FE20036E7F2 /* EncryptData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7A3CB41A697FE20036E7F2 /* EncryptData */ = {
+			isa = PBXGroup;
+			children = (
+				EFB4E2F91A698196002A5140 /* encryption_aes.cpp */,
+				EFB4E2FC1A698196002A5140 /* GameMaths.cpp */,
+				EFB4E2FD1A698196002A5140 /* GameMaths.h */,
+				EFB4E2EF1A698094002A5140 /* encrypt */,
+			);
+			path = EncryptData;
+			sourceTree = "<group>";
+		};
+		EFB4E2EF1A698094002A5140 /* encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				EFB4E3021A6984BA002A5140 /* No2DncryptData.cpp */,
+				EFB4E3031A6984BA002A5140 /* No2DncryptData.h */,
+				EFB4E2F01A698094002A5140 /* No2AES.cpp */,
+				EFB4E2F11A698094002A5140 /* No2AES.h */,
+				EFB4E2F41A698094002A5140 /* rc4.cpp */,
+				EFB4E2F51A698094002A5140 /* rc4.h */,
+				EFB4E3011A6983C9002A5140 /* Encuypt.hpp */,
+				EFB4E3091A698CBF002A5140 /* File.cpp */,
+				EFB4E30A1A698CBF002A5140 /* File.h */,
+			);
+			path = encrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7A3CB11A697FE20036E7F2 /* EncryptData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7A3CB91A697FE20036E7F2 /* Build configuration list for PBXNativeTarget "EncryptData" */;
+			buildPhases = (
+				EF7A3CAE1A697FE20036E7F2 /* Sources */,
+				EF7A3CAF1A697FE20036E7F2 /* Frameworks */,
+				EF7A3CB01A697FE20036E7F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptData;
+			productName = EncryptData;
+			productReference = EF7A3CB21A697FE20036E7F2 /* EncryptData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7A3CAA1A697FE20036E7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = no2game;
+				TargetAttributes = {
+					EF7A3CB11A697FE20036E7F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EF7A3CAD1A697FE20036E7F2 /* Build configuration list for PBXProject "EncryptData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF7A3CA91A697FE20036E7F2;
+			productRefGroup = EF7A3CB31A697FE20036E7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7A3CB11A697FE20036E7F2 /* EncryptData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7A3CAE1A697FE20036E7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB4E2F81A698094002A5140 /* rc4.cpp in Sources */,
+				EFB4E3001A698196002A5140 /* GameMaths.cpp in Sources */,
+				EFB4E2FE1A698196002A5140 /* encryption_aes.cpp in Sources */,
+				EFB4E30B1A698CBF002A5140 /* File.cpp in Sources */,
+				EFB4E2F61A698094002A5140 /* No2AES.cpp in Sources */,
+				EFB4E3041A6984BA002A5140 /* No2DncryptData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF7A3CB71A697FE20036E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF7A3CB81A697FE20036E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF7A3CBA1A697FE20036E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7A3CBB1A697FE20036E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7A3CAD1A697FE20036E7F2 /* Build configuration list for PBXProject "EncryptData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7A3CB71A697FE20036E7F2 /* Debug */,
+				EF7A3CB81A697FE20036E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7A3CB91A697FE20036E7F2 /* Build configuration list for PBXNativeTarget "EncryptData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7A3CBA1A697FE20036E7F2 /* Debug */,
+				EF7A3CBB1A697FE20036E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7A3CAA1A697FE20036E7F2 /* Project object */;
+}
